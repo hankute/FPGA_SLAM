@@ -1,0 +1,13 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -15,8 +15,11 @@
+ 
+ # Thirdparty
+-add_subdirectory(Thirdparty/DBoW2)
+-add_subdirectory(Thirdparty/g2o)
++find_package(DBoW2 REQUIRED)
++find_package(g2o REQUIRED)
++
++message(STATUS "Using external DBoW2 and g2o from system")
++
+
