@@ -1,1 +1,2 @@
 # FPGA_SLAM
+Use the 2021.1 version of Vitis. For the platform and the basic image of Petalinux, please refer to https://xilinx.github.io/kria-apps-docs/kv260/2021.1/build/html/index.html. Then build the recipe-app and add the basic libraries eigen, boost, and xrt.For platform, xclbin and the basic image of Petalinux, please refer to https://xilinx.github.io/kria-apps-docs/kv260/2021.1/build/html/index.html. Then build the recipe-app and add the basic libraries eigen, boost, and xrt.
